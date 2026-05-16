@@ -1,11 +1,6 @@
 name: CodeQL
 
 on:
-  push:
-  pull_request:
-  merge_group:
-  schedule:
-    - cron: "0 4 * * 1"
   workflow_dispatch:
 
 permissions:
